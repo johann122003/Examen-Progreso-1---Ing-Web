@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Manager</title>
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+
+    <header class="header">
+        
+        <img src="images/logo-bookmark.svg" alt="Bookmark Logo" class="header__logo">
+
+        <img src="images/icon-hamburger.svg" alt="Menu" class="header__toggle">
+        
+        <nav class="header__nav">
+            <a href="#" class="header__link">Features</a>
+            <a href="#" class="header__link">Pricing</a>
+            <a href="#" class="header__link">Contact</a>
+            
+            <button class="header__btn header__btn--red">Login</button>
+        </nav>
+
+    </header>
+
+
+
+    <section class="hero">
+        
+        <div class="hero__content">
+            <h1 class="hero__title">A Simple Bookmark Manager</h1>
+            <p class="hero__text">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+            
+            <div class="hero__buttons">
+                <button class="btn btn--primary">Get it on Chrome</button>
+                <button class="btn btn--secondary">Get it on Firefox</button>
+            </div>
+        </div>
+
+        <div class="hero__image">
+             <a href ="#lightbox-hero">
+            <img src="images/illustration-hero.svg" alt="Bookmark Manager Interface">
+            </a>
+        </div>
+
+    </section>
+
+
+
+    <section class="features">
+        
+        <div class="features__header">
+            <h2 class="features__title">Features</h2>
+            <p class="features__text">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+        </div>
+
+        <div class="features__tabs">
+            <button class="features__tab features__tab--active">Simple Bookmarking</button>
+            <button class="features__tab">Speedy Searching</button>
+            <button class="features__tab">Easy Sharing</button>
+        </div>
+
+        <div class="features__content features__content--active">
+            <div class="features__image">
+                <img src="images/illustration-features-tab-1.svg" alt="Simple Bookmarking">
+            </div>
+            <div class="features__info">
+                <h3 class="features__subtitle">Bookmark in one click</h3>
+                <p class="features__desc">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                <button class="btn btn--primary">More Info</button>
+            </div>
+        </div>
+
+        <div class="features__content">
+            <div class="features__image">
+                <img src="images/illustration-features-tab-2.svg" alt="Intelligent search">
+            </div>
+            <div class="features__info">
+                <h3 class="features__subtitle">Intelligent search</h3>
+                <p class="features__desc">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+                <button class="btn btn--primary">More Info</button>
+            </div>
+        </div>
+
+        <div class="features__content">
+            <div class="features__image">
+                <img src="images/illustration-features-tab-3.svg" alt="Share your bookmarks">
+            </div>
+            <div class="features__info">
+                <h3 class="features__subtitle">Share your bookmarks</h3>
+                <p class="features__desc">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                <button class="btn btn--primary">More Info</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="download">
+        
+        <div class="download__header">
+            <h2 class="download__title">Download the extension</h2>
+            <p class="download__text">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+        </div>
+
+        <div class="download__grid">
+            
+            <div class="download__card">
+                <img src="images/logo-chrome.svg" alt="Chrome Logo" class="download__logo">
+                <h3 class="download__browser">Add to Chrome</h3>
+                <p class="download__version">Minimum version 62</p>
+                <hr class="download__divider">
+                <button class="btn btn--primary">Add & Install Extension</button>
+            </div>
+
+            <div class="download__card">
+                <img src="images/logo-firefox.svg" alt="Firefox Logo" class="download__logo">
+                <h3 class="download__browser">Add to Firefox</h3>
+                <p class="download__version">Minimum version 55</p>
+                <hr class="download__divider">
+                <button class="btn btn--primary">Add & Install Extension</button>
+            </div>
+
+            <div class="download__card">
+                <img src="images/logo-opera.svg" alt="Opera Logo" class="download__logo">
+                <h3 class="download__browser">Add to Opera</h3>
+                <p class="download__version">Minimum version 46</p>
+                <hr class="download__divider">
+                <button class="btn btn--primary">Add & Install Extension</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="faq">
+
+        <div class="faq__header">
+            <h2 class="faq__title">Frequently Asked Questions</h2>
+            <p class="faq__text">Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
+        </div>
+
+
+        <div class="faq__accordion">
+            
+            <div class="faq__item">
+                <a href="#respuesta-1" class="faq__question" style="text-decoration: none;">
+                    <span>What is Bookmark?</span>
+                    <img src="images/icon-arrow.svg" alt="Arrow" class="faq__icon">
+                </a>
+                
+                <div id="respuesta-1" class="faq__answer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    
+                    <a href="#">Ocultar</a>
+                </div>
+            </div>
+
+            <div class="faq__item">
+                <div class="faq__question">
+                    <span>How can I request a new browser?</span>
+                    <img src="images/icon-arrow.svg" alt="Arrow" class="faq__icon">
+                </div>
+                <div class="faq__answer">
+                    <p>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula.</p>
+                </div>
+            </div>
+
+            <div class="faq__item">
+                <div class="faq__question">
+                    <span>Is there a mobile app?</span>
+                    <img src="images/icon-arrow.svg" alt="Arrow" class="faq__icon">
+                </div>
+                <div class="faq__answer">
+                    <p>Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget.</p>
+                </div>
+            </div>
+
+            <div class="faq__item">
+                <div class="faq__question">
+                    <span>What about other Chromium browsers?</span>
+                    <img src="images/icon-arrow.svg" alt="Arrow" class="faq__icon">
+                </div>
+                <div class="faq__answer">
+                    <p>Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="btn btn--primary faq__btn">More Info</button>
+
+
+
+    </section>
+
+
+
+    <section class="contact">
+        <div class="contact__container">
+            <p class="contact__subtitle">35,000+ ALREADY JOINED</p>
+            <h2 class="contact__title">Stay up-to-date with what we're doing</h2>
+            
+            <form class="contact__form" action="#">
+                <input type="email" class="contact__input" placeholder="Enter your email address" required>
+                <button type="submit" class="btn btn--red">Contact Us</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        
+        <div class="footer__left">
+            <img src="images/logo-bookmark-white.svg" alt="Bookmark" class="footer__logo">
+            
+            <nav class="footer__nav">
+                <a href="#" class="footer__link">Features</a>
+                <a href="#" class="footer__link">Pricing</a>
+                <a href="#" class="footer__link">Contact</a>
+            </nav>
+        </div>
+
+        <div class="footer__socials">
+            <a href="#"><img src="images/icon-facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="images/icon-twitter.svg" alt="Twitter"></a>
+        </div>
+
+    </footer>
+
+
+
+    <script>
+        const tabs = document.querySelectorAll('.features__tab');
+        const contents = document.querySelectorAll('.features__content');
+
+        tabs.forEach((tab, index) => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => t.classList.remove('features__tab--active'));
+                contents.forEach(c => c.classList.remove('features__content--active'));
+                
+                tab.classList.add('features__tab--active');
+                contents[index].classList.add('features__content--active');
+            });
+        });
+    </script>
+
+  
+
+
+</body>
+</html>
